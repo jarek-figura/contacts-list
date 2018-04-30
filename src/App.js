@@ -5,13 +5,6 @@ import FormView from "./FormView";
 class App extends Component {
   state = {
     contacts: []
-      // {
-      //   id: '',
-      //   name: '',
-      //   phone: '',
-      //   email: '',
-      //   categories: ''
-      // }
   };
 
   addContact = (name, phone, email, categories) => {
