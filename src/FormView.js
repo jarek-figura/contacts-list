@@ -5,9 +5,9 @@ class FormView extends Component {
     name: '',
     phone: '',
     email: '',
-    categories: [],
+    categories: '',
     formError: null,
-    contacts: ''
+    contacts: []
   };
 
   handleSubmit = event => {
